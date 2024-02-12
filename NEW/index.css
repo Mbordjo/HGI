@@ -1,0 +1,43 @@
+/*StyleSheet being used to add to all of the html context. Do NOT delete.*/
+
+/*Changing how the body looking*/
+body {
+    background-color: #ffffff;
+}
+
+/* The navigation bar */
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+/*Chaning how the button looks*/
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+}
+
+/*button styles*/
+button{
+    /*button color*/
+    background-color: #333;
+    /*text on button color*/
+    color: beige;
+}
+button:hover {
+    /*button color when hovering on it*/
+    background-color: #616161;
+}
+
+a {
+    /*removing the underline in links*/
+    text-decoration:none;
+}
